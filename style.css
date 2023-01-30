@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", Sans-Serif;
+}
+
+body {
+  background: #080808;
+  color: #ffffff;
+}
+
+.active{
+  color:#ffffff;
+  background-color:#0f0c27;
+}
+/*nav-bar*/
+.shadow{
+  box-shadow: 0 0 4px rgb(14 55 54/15%);
+}
+.heading {
+  color: blueviolet;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.highlight {
+  color: red;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+#navItem1 {
+  color: #ffffff;
+  font-family: "Roboto";
+}
+
+#navItem2 {
+  color: #ffffff;
+  font-family: "Roboto";
+}
+
+#navItem3 {
+  color: #ffffff;
+  font-family: "Roboto";
+}
+
+#navItem4 {
+  color: #ffffff;
+  font-family: "Roboto";
+}
+
+#navItem5 {
+  color: #ffffff;
+  font-family: "Roboto";
+}
+#darkmode{
+  font-size:20px;
+  cursor:pointer;
+}
+
+.scroll-down{
+  display:none;
+}
+/* home-section*/
+.home {
+  background-image: url("https://img.freepik.com/premium-vector/graphic-flat-design-drawing-businessman-designer-programmer-freelancer-sitting-comfy-couch-while-typing-laptop-remote-worker-student-online-education-cartoon-vector-illustration_620206-1420.jpg?size=626&ext=jpg&ga=GA1.1.107881344.1668078414");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  min-height: 500px;
+}
+
+.max-width {
+  max-width: 1200px;
+  padding: 0 80px;
+  margin: auto 0;
+
+}
+
+.home-content {
+  font-size: 25px;
+  font-family: "Roboto";
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+span {
+  color: #AE769B;
+  font-weight: bold;
+
+}
+
+.text-1 {
+
+  font-weight: 600;
+}
+
+.text-2 {
+  color: #CF8787;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.text-3 {
+
+  font-weight: 600;
+  font-family: Sans-serif;
+}
+.social{
+  display: flex;
+  flex-direction:column;
+  justify-content:space-between;
+  margin:10px;
+}
+.icons{
+  color:black;
+  font-size:20px;
+  padding:10px;
+}
+/*about-section*/
+.about {
+  padding: 80px 25px;
+  color: #ababab;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-1 {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.about-1 {
+  flex-basis: 35%;
+}
+
+.about-2 {
+  flex-basis: 60%;
+}
+
+.about-me-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.about-me {
+  font-size: 20px;
+}
+
+.habits-subtutile {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+  color: #BF89C6;
+}
+
+/*skills section*/
+.skills-section-image {
+  width: 100%;
+}
+
+.skills-description {
+  color: #9aa5b1;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 300;
+
+}
+
+.skills-section {
+  background-color: #1f2933;
+}
+
+.skills-heading {
+  color: #cced00;
+  font-size: 25px;
+  font-family: "Roboto";
+  font-weight: 600;
+
+}
+
+.skills-card-section {
+  background-color: #323f4b;
+  border-radius: 8px;
+  padding-top: 10px;
+}
+
+.languages-images {
+
+  height: 110px;
+  width: 110px;
+
+  border-radius: 8px;
+}
+
+.language-name {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+/*projects section*/
+.projects-section {
+  background-color: #3e4c59;
+  background-size: cover;
+
+}
+
+.projects-heading {
+  color: #cced00;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.projects-sub-heading {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Roboto";
+  font-weight: bold;
+
+}
+
+.projects-image {
+  width: 100%;
+}
+
+.projects-description-container {
+  background-color: #323f4b;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+.projects-description {
+  font-size: 15px;
+  color: #9aa5b1;
+}
+
+.projects-description-heading {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.projects-description-2 {
+  color: #9aa5b1;
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.read-more-text {
+  color: #cced00;
+}
+
+/*contact section*/
+.jenny-section {
+  background-color: #0d2436;
+}
+
+.jeeny-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.jeeny-name {
+  color: #cced00;
+  font-size: 24px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.jeeny-role {
+  color: #9aa5b1;
+  font-size: 24px;
+}
+
+.contact-details {
+  color: #cced00;
+  font-size: 26px;
+  font-family: "Roboto";
+  font-weight: 600;
+
+}
+
+.contact-address {
+  color: #5a7184;
+  font-size: 20px;
+
+}
+
+.navigation-icon {
+  color: #5a7184;
+  font-size: 18px;
+}
+
+.copy-right-section {
+  background-color: #001c32;
+  text-align: center;
+  padding: 10px;
+}
+
+.icon {
+  color: #5a7184;
+  font-size: 30px;
+
+}
+
+.copyright-details {
+  color: #9aa5b1;
+  font-size: 18px;
+}
